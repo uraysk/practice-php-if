@@ -1,14 +1,14 @@
 <?php
 $food = 7;
-$num = 0;
+$num1 = 0;
 if($food % 2 == 0){
-    $num = $food / 2;
+    $num1 = $food / 2;
 }else{
-    $num = ($food - 1) / 2;
-    if($num > 2){
-        $num += 5;
+    $num1 = ($food - 1) / 2;
+    if($num1 > 2){
+        $num1 += 5;
     }else{
-        $num += 6;
+        $num1 += 6;
     }
 }
-echo $num;
+echo $num1;
